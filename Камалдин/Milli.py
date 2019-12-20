@@ -87,6 +87,19 @@ def MillionPicture5():
     canvas.create_image(215,300, image =image1)
     canvas.images = image1
 
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+
+p1 = Person("Kamaldin", 20)
+
+print(p1.name)
+print(p1.age)
+
+
 #===================================1step=============================
 CentreImage = PhotoImage(file = 'Centre.png')
 LogoCentre = Button(ABC1b, image = CentreImage, bg='black', width=300, height=200)
